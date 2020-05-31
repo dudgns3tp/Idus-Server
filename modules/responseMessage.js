@@ -46,5 +46,8 @@ module.exports = {
 
     //item
     GET_ITEM:"아이템 가져오기 성공",
-    GET_RECOMMEND_ITEM:"추천 아이템 가져오기 성공"
+    GET_RECOMMEND_ITEM:"추천 아이템 가져오기 성공",
+
+    //home
+    GET_BANNER:"배너 가져오기 성공"
 };
