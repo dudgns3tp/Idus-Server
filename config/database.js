@@ -1,5 +1,5 @@
 const mysql = require('promise-mysql');
-let dotenv = require('dotenv');
+let dotenv = require('heroku-dotenv');
 dotenv.config();
 const dbConfig = {
     host:process.env.DB_HOST,
