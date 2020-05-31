@@ -45,6 +45,6 @@ module.exports = {
     GET_LIKE:"좋아요 가져오기 성공",
 
     //item
-    GET_ITEM:"아이템 가져오기 성공"
-
+    GET_ITEM:"아이템 가져오기 성공",
+    GET_RECOMMEND_ITEM:"추천 아이템 가져오기 성공"
 };
