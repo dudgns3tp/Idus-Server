@@ -50,7 +50,7 @@ module.exports = {
     TOGGLE_LIKE:"좋아요 토글 성공",
     NO_ITEM:"해당 아이템 없음",
     NO_ITEM_UPDATE:"아이템 업데이트 실패",
-    GET_CATEGORY:"카테고라 가져오기 성공",
+    GET_CATEGORY:"카테고리 가져오기 성공",
 
     //home
     GET_BANNER:"배너 가져오기 성공"
