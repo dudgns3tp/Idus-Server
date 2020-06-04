@@ -1,6 +1,7 @@
+/* 로컬에서 돌릴때는 dotenv = require('dotenv') */
 const mysql = require('promise-mysql');
 let dotenv = require('heroku-dotenv');
-//dotenv.config();
+//dotenv.config();  // 로컬에서 돌릴떄는 이 주석 제거
 const dbConfig = {
     host:process.env.DB_HOST,
     port:process.env.DB_PORT,

@@ -38,6 +38,6 @@ module.exports ={
         if(!toggleData){
             return await res.status(statusCode.DB_ERROR).send(util.fail(statusCode.DB_ERROR, resMessage.NO_ITEM_UPDATE));
         }
-        return await res.status(statusCode.OK).send(util.success(statusCode.OK,resMessage.TOOGLE_LIKE,{itemIdx:itemIdx}));
+        return await res.status(statusCode.OK).send(util.success(statusCode.OK,resMessage.TOGGLE_LIKE,{itemIdx:itemIdx}));
     }
 }
